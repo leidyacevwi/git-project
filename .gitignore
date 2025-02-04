@@ -46,3 +46,25 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+# Excluir archivos del núcleo de WordPress
+/wp-admin/
+/wp-includes/
+
+# Configuración sensible
+wp-config.php
+
+# Caché, uploads y logs
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+*.log
+debug.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+.env
+
+# Dependencias y archivos temporales
+node_modules/
+vendor/
